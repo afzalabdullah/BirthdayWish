@@ -1303,9 +1303,7 @@ audio {
  
     /* controlling tablet width */ 
     @media only screen and (width: 360px){
-    	.container {
-    		-webkit-transform: scale(0.9);
-    	}
+    	
 		.balloons{
 			max-lines: 2;
 			position: fixed;
@@ -1324,6 +1322,9 @@ audio {
 			color: #BF4136;
 			text-shadow: 5px 5px 5px #FFF;
 			display: none;
+		}
+		.navbar{
+			padding-bottom: 50px;
 		}
     }
 	
