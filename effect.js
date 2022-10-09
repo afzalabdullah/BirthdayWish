@@ -154,9 +154,9 @@ $('document').ready(function(){
 		$('#b22').animate({top:200, left: 60},500);
 		$('#b33').animate({top:200, left: 110},500);
 		$('#b44').animate({top:200, left: 160},500);
-		$('#b55').animate({top:200, left: 220},500);
-		$('#b66').animate({top:200, left: 270},500);
-		$('#b77').animate({top:200, left: 320},500);
+		$('#b55').animate({top:200, left: 210},500);
+		$('#b66').animate({top:200, left: 260},500);
+		$('#b77').animate({top:200, left: 310},500);
 		$('.balloons').css('opacity','0.9');
 		$('.balloons h2').fadeIn(3000);
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
